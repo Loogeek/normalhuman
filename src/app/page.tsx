@@ -1,7 +1,9 @@
+import { Button } from "@/components/ui/button";
+
 export default async function Home() {
-  // const hello = await api.post.hello({ text: "from tRPC" });
-
-  // void api.post.getLatest.prefetch();
-
-  return <div>Hello World!</div>;
+  return (
+    <div>
+      <Button>Hello World!</Button>
+    </div>
+  );
 }
